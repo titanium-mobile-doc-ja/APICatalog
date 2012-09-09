@@ -1,10 +1,7 @@
-# Users
-ユーザ管理機能を提供します。
-
 ## Create User
 ユーザを登録します。
 メールアドレス、もしくはユーザ名とパスワードが必須になります。
-確認用のパスワードも必要となります。
+また、確認用のパスワードも必要となります。
 
 ```JavaScript
 var Cloud = require('ti.cloud');
@@ -71,28 +68,3 @@ createButton.addEventListener('click', function(){
 
 window.open();
 ```
-
-## Log in User
-
-## Show User
-
-## Show Current User
-
-## Search for Users
-
-## Query for Users
-
-## Update User
-
-## Logout User
-
-## Remove User
-
-## Request Reset Password User
-
-## Create User Using 3-Legged OAuth
-
-## Log in User Using 3-Legged OAuth
-
-
-
